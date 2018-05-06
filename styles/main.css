@@ -1,0 +1,77 @@
+/* CIT 230 - Assignment Portal CSS Template */
+/* You may use #HEX or color names */
+
+/* * is a wildcard referring to all elements. */
+* { margin: 0; box-sizing: border-box; } 
+<style>       
+@import url(https://fonts.googleapis.com/css?family=Mukta+Malar');
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter');
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family:'Architects+Daughter', sans-serif;
+    color:cadetblue;
+    
+}
+li{
+    margin-top:15px;
+    padding:5px;
+      font-size: 1em;
+    color:cadetblue;
+}
+
+
+h1 {
+    font-size: 2em;
+
+}
+
+h2 {
+    padding:5px;
+    color:white;
+    font-size:1.5em;
+    text-align: center;
+    border: 1px solid;
+    border-color:cadetblue;
+    background-color:yellowgreen
+    
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 700px;
+    
+}
+h2, li {
+    position:relative;
+    margin-left:250px;
+}
+main{
+
+}
+header, footer, footer a {
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
+
+header img {
+    width:200px;
+    height: auto;
+    float: right;
+}
+img {
+    float:left;
+    width:220px;
+    border-color:yellowgreen;
+    border-style:solid;
+    border-width: 2px;
+
+}
+footer {
+    margin-top:50px;
+ clear:both;
+ font-size: .85rem;
+}
+</style>
